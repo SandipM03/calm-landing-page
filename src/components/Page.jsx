@@ -7,6 +7,7 @@ import { Heart, Shield, Users } from "lucide-react";
 import { RainbowButton } from "@/components/magicui/rainbow-button";
 import Magnet from "@/components/Magnet";
 import { Spotlight } from "@/components/ui/spotlight-new";
+import  GradientText  from "@/components/GradientText/GradientText";
 const Page = () => {
   const heroRef = useRef(null);
 
@@ -136,9 +137,12 @@ const Page = () => {
       >
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            {/* <h2 className="text-3xl md:text-4xl font-bold mb-4">
               How <span className="text-blue-400">calm</span> Supports You
-            </h2>
+            </h2> */}
+            <GradientText size="large">
+              How calm Supports You
+            </GradientText>
             <p className="text-gray-400 max-w-2xl mx-auto">
               Our AI companion uses advanced technology to provide personalized
               emotional support tailored to your unique needs.
