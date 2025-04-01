@@ -80,7 +80,7 @@ const Page = () => {
         </div>
 
         {/* Grid pattern overlay */}
-        <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-10"></div>
+        <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-10 min-h-screen"></div>
 
         <div className="container relative z-10 mx-auto px-4">
           <div className="flex flex-col items-center text-center mb-12">
@@ -103,7 +103,12 @@ const Page = () => {
               An AI-powered emotional support companion that adapts to your
               needs, providing comfort and connection when you need it most.
             </p>
-            <RainbowButton>Start Your Journey</RainbowButton>
+            <a href="https://drive.google.com/file/d/1Lf50V5_5wYuGk0eLQsYkgom6kB55zQmY/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <RainbowButton>
+              Download Now
+              </RainbowButton>
+            </a>
+            
             <div className="flex flex-col sm:flex-row justify-center gap-4 w-full max-w-md">
               {/* <Link href="/get-started" className="w-full sm:w-auto">
                 <Button
@@ -289,12 +294,7 @@ const Page = () => {
               >
                 Community
               </Link>
-              <Link
-                href="/privacy"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                Privacy
-              </Link>
+              
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-800">
