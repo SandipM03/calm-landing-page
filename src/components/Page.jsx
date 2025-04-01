@@ -8,6 +8,7 @@ import { RainbowButton } from "@/components/magicui/rainbow-button";
 import Magnet from "@/components/Magnet";
 import { Spotlight } from "@/components/ui/spotlight-new";
 import  GradientText  from "@/components/GradientText/GradientText";
+import {AuroraText} from "@/components/magicui/aurora-text";
 const Page = () => {
   const heroRef = useRef(null);
 
@@ -208,9 +209,12 @@ const Page = () => {
 
         <div className="container relative z-10 mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            {/* <h2 className="text-3xl md:text-4xl font-bold mb-4">
               How <span className="text-blue-400">calm</span> Works
-            </h2>
+            </h2> */}
+            <h1 className="text-3xl font-bold tracking-tighter md:text-5xl lg:text-6xl ">
+              How <AuroraText>calm </AuroraText> Works
+            </h1>
             <p className="text-gray-400 max-w-2xl mx-auto">
               Our advanced AI learns from your interactions to provide
               increasingly personalized support.
@@ -288,18 +292,18 @@ const Page = () => {
               >
                 How It Works
               </Link>
-              <Link
+              {/* <Link
                 href="#community"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 Community
-              </Link>
+              </Link> */}
               
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-800">
             <p className="text-gray-500 text-sm text-center">
-              © 2025 calm. All rights reserved.
+              © 2025 Zenux Studio. All rights reserved.
             </p>
           </div>
         </div>
